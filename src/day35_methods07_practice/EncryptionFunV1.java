@@ -20,12 +20,19 @@ public class EncryptionFunV1 {
 		
 		//with a loop
 		String encryptedWord = "";
-		for(int i = 0; i < word.length(); i++) {
-			char ch = word.charAt(i);
-			//find in alphabet
-			int index = alphabet.indexOf(ch);
-			//System.out.print(encrypted.charAt(index));
-			encryptedWord+=encrypted.charAt(index);
+//		for(int i = 0; i < word.length(); i++) {
+//			char ch = word.charAt(i);
+//			//find in alphabet
+//			int index = alphabet.indexOf(ch);
+//			//System.out.print(encrypted.charAt(index));
+//			encryptedWord+=encrypted.charAt(index);
+//		}
+		int j = 0;
+		while(j<word.length()) {
+			char ch = word.charAt(j);
+			int posAtAlp = alphabet.indexOf(ch);
+			encryptedWord += encrypted.charAt(posAtAlp);
+			j++;
 		}
 		
 		System.out.println(word);

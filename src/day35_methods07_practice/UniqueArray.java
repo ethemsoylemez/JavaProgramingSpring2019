@@ -32,9 +32,10 @@ public class UniqueArray {
 			}
 			//
 			if(counter == 0) {//is it still 0. then it is unique
-				System.out.println(temp);
-			}	
+				System.out.print(temp +" ");
+			}
 		}
+		System.out.println();
 	}
 	//declare empty string
 	//find unique numbers and add to that string
