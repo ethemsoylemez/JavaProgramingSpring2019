@@ -8,7 +8,6 @@ public class SlackUser {
 	}
 
 	public void sendAMessage(String message) {
-
 		System.out.println(name + " is sending a message <" + message);
 	}
 

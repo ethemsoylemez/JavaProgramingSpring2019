@@ -7,8 +7,8 @@ public class EqualsMEthod {
 		Computer comp2 = new Computer("iMac", "silver");
 		Computer comp3 = comp2; // point to same object
 
-		System.out.println(comp1 == comp2);
-		System.out.println(comp1.equals(comp2));
+		System.out.println(comp1 == comp2); //they are not point the same object
+		System.out.println(comp1.equals(comp2)); //their values are equal, but they are not in the same pool 
 		System.out.println("=====================");
 
 		System.out.println(comp3 == comp2);

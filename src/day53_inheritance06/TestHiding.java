@@ -18,8 +18,8 @@ public class TestHiding {
 //		city.buildARoad();
 //		cap.buildARoad();
 		
-		City.buildARoad();
-		Capital.buildARoad();
+		City.buildARoad(); // static method
+		Capital.buildARoad(); // hidden method
 		
 		City city2 = new City(3344,"Fairfax");
 		Capital cap2 = new Capital(6544, "Richmond", 5423934L);

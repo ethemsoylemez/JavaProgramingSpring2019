@@ -1,5 +1,7 @@
 package day50_inheritance03;
 
+
+//to understand constructors with parent and child class
 public class App {
 	private String name;
 	public static int count;
@@ -21,6 +23,4 @@ public class App {
 	public void setName(String name) {
 		this.name = name;
 	}
-
-
 }

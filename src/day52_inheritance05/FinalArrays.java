@@ -29,6 +29,6 @@ public class FinalArrays {
 		PRICES[2] = 99.98;
 
 		System.out.println(Arrays.toString(PRICES));
-
+        //PRICES = new double[4];
 	}
 }

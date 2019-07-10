@@ -10,8 +10,9 @@ public class CompanyTest {
 		System.out.println(Company.cname.toUpperCase());
 		
 		Company c = new Company();
-		System.out.println(c.cname);
-		c.companyInfo(); //calling static method by an object
+		System.out.println(c);
+		System.out.println(Company.cname);
+		Company.companyInfo(); //
 		Company.companyInfo(); // calling static method by class
 		
 	}

@@ -12,11 +12,12 @@ public class CalcTest {
 		System.out.println(result);
 
 		Calculator c = new Calculator();
-		System.out.println(c.multibly(4, 2));// we should call by Class name
+		System.out.println(Calculator.multibly(4, 2));// we should call by Class name
 		
 		int i = Integer.parseInt("33");
 		System.out.println(Character.isDigit(i));
 		System.out.println(Character.isDigit('6'));
+		System.out.println(c);
 	}
 
 }

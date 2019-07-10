@@ -3,6 +3,8 @@ package day53_inheritance06;
 public class Capital extends City {
 
 	private long population;
+	
+	//variable hiding 
 	public int count = 1;
 
 	public Capital(int id, String name, long population) {
@@ -17,8 +19,8 @@ public class Capital extends City {
 	}
 
 	public void displayCount() {
-		System.out.println("City count: " + super.count);
-		System.out.println("Capital count: " + count);
+		System.out.println("City count: " + super.count); //100
+		System.out.println("Capital count: " + count); //1
 	}
 
 	@Override

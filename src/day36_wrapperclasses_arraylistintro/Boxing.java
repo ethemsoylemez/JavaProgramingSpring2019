@@ -25,7 +25,6 @@ public class Boxing {
 		
 		Integer num3 = Integer.valueOf(3345);
 		//Double d3 = num3; casting is not possible with wrapper classes
-		
-	}
+}
 
 }

@@ -6,7 +6,6 @@ public class City {
 	public int count = 100;
 
 	public City(int id, String name) {
-		super();
 		this.id = id;
 		this.name = name;
 	}

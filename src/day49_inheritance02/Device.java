@@ -12,6 +12,7 @@ public class Device {
 	double price;
 	
 	//private attribute. same class
+	@SuppressWarnings("unused")
 	private String country;
 
 

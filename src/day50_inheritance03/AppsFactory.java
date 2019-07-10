@@ -2,6 +2,7 @@ package day50_inheritance03;
 
 public class AppsFactory {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		IPhoneApp iApp = new IPhoneApp();
 		IPhoneApp iApp2 = new IPhoneApp("Uber");
@@ -19,15 +20,15 @@ public class AppsFactory {
 		System.out.println(IPhoneApp.count);
 		AndroidApp.count = 100;
 
-		System.out.println("App.count: " + App.count);
-		System.out.println("IPhoneApp.count: " + IPhoneApp.count);
-		System.out.println("AndroidApp.count: " + AndroidApp.count);
+		System.out.println("App count: " + App.count);
+		System.out.println("IPhoneApp count: " + IPhoneApp.count);
+		System.out.println("AndroidApp count: " + AndroidApp.count);
 
+		//we can call static method by class name or class object
 		App.build("Swift");
 		IPhoneApp.build("Objective C");
 		AndroidApp.build("Java");
 		andrApp2.build("JS");
-
 	}
 }
 

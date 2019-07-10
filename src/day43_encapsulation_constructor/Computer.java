@@ -15,7 +15,8 @@ public class Computer {
 	
 	// add a constructor. by using constructor we don't even need setter method
 	public Computer(String brand, String os, double price) {
-		System.out.println("Computor constructor ...");
+		this();
+		//System.out.println("Computor constructor ...");
 		this.brand = brand;
 		this.os = os;
 		this.price = price;

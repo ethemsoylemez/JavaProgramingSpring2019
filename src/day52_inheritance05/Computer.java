@@ -17,11 +17,10 @@ public class Computer {
 	}
 
 	public Computer() {
-		super();
+		
 	}
 
 	public Computer(String model, String color) {
-		super();
 		this.model = model;
 		this.color = color;
 	}

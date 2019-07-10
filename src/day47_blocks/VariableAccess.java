@@ -15,7 +15,7 @@ public class VariableAccess {
 		//create object of VariableAccess class and print myInstanceVar
 		VariableAccess myVar = new VariableAccess();
 		System.out.println(myVar.myInstanceVar);
-		System.out.println(myVar.myStaticVar);
+		System.out.println(VariableAccess.myStaticVar);
 		
 		//access static variable using class name
 		System.out.println(VariableAccess.myStaticVar);

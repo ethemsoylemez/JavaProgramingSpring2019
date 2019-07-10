@@ -18,6 +18,7 @@ public class Vehicle {
 
 		Vehicle vh = new Vehicle(); // create object than call
 		vh.toString();
+		System.out.println(count);
 
 	}
 

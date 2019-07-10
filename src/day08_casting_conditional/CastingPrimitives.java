@@ -13,7 +13,7 @@ public class CastingPrimitives {
 		int dollars = (int) price;
 		System.out.println("Price: " + dollars);
 
-		// whole numbers: byte, short, int
+		// whole numbers: byte, short, int, long
 
 		int count = 126;
 		byte byteCount = (byte) count;

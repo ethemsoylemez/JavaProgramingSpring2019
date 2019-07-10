@@ -18,5 +18,4 @@ public class TestAnimals {
 		duck.move(99);
 		
 	}
-
 }

@@ -8,8 +8,9 @@ public class MainTestData {
 	System.out.println(briteErpUrl);
 	
 	System.out.println(TestData.email);//access a static instance variable by Class name
+	@SuppressWarnings("unused")
 	TestData td = new TestData();
-	System.out.println(td.email); //access a static instance variable by object
+	System.out.println(TestData.email); //access a static instance variable by object
 	
 }
 
